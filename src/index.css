@@ -70,7 +70,7 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 600px;
+  height: 700px;
 }
 
 
@@ -81,6 +81,7 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: left;
+  margin-left: 10%;
 }
 
 .info-text {
@@ -106,9 +107,10 @@ a:visited:active {
   background-size: cover;
   color: navy;
   padding: 20px;
-  margin: 20px;
+  margin: 0;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .button-back {
@@ -124,11 +126,21 @@ a:visited:active {
   margin: 10px;
 }
 
+.book-info {
+  font-size: 20px;
+  margin: 10px;
+}
+
 @media (min-width: 767px) {
 
   .book-card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .book-info {
+    font-size: 24px;
+    margin: 20px;
   }
   }
   
