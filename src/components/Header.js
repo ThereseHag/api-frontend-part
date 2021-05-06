@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header className="header-container">
             <div className="header-image"></div>
-            <h1>Sandemo Book Treasure</h1>
+            <h1>Sandemo's Bokskatt</h1>
                 
         </header>
     )

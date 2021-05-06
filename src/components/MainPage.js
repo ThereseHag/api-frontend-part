@@ -4,9 +4,11 @@ const MainPage = () => {
     return (
         <div className='main-container'>
             <div className='info-part'>
-                <p className='info-text'>Margit Sandemo was a Swedish/Norwegian author who between the years of 1964 and 2018 wrote 185 books.</p>
-                <p className='info-text'>She may be most famous for the serie Sagan om Isfolket, but she has also written several other series, such as Legenden om Ljusets Rike, Häxmästaren, Trollrunor and Sandemoserien.</p>
-                <p className='info-text'>Find below all books written by Margit. You will also find a link to Storytel, where you can read or listen to the books. However, there are of course many other places where you can find them as well.</p>
+                <p className='info-text'>Margit Sandemo var en svensk/norsk författare som mellan åren 1964 och 2018 skrev 185 böcker.</p>
+                <p className='info-text'>Hon är må hända mest känd för serien Sagan om Isfolket, men hon har även skrivit flera andra omtyckta och välkända serier samt ett flertal fristående titlar.</p>
+                <p className='info-text'>Några andra kända serier är Legenden om Ljusets Rike, Häxmästaren, Trollrunor och Sandemoserien.</p>
+                <p className='info-text'>Nedan hittar du så gott som alla böcker som Margit har skrivit. Klicka på respektive kort för att läsa en kort sammanfattning om boken.</p>
+                <p className='info-text'>Inne på respektive boksida hittar du även en länk till Storytel där du kan läsa/lyssna på boken. Naturligtvis går böckerna även att hitta på gott om andra platser</p>
             </div>
         </div>
     )
