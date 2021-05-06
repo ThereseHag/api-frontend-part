@@ -1,19 +1,15 @@
-# Technigo React Starter App
+# Front-end for Sandemo API
 
-This app has been generated using `create-react-app`, then cleaned up a little so we have a project with just the elements we need to get started.
+I've built this React app in order to fetch data from my own RESTful API. The app displays all books written by the author Margit Sandemo. 
 
-Add components in the `src` folder and use them in `src/app.js` to get started.
+# The strategy
 
-## Usage
+I started with creating my own json dataset with all books written by the Swedish/Norwegian author Margit Sandemo with the goal to make a RESTful API with several endpoints. I then decided to create a front-end where the data could be displayed, in order to cover all parts of the process. 
 
-1. On GitHub, click the 'use this template' button to create a new repo on your account
-1. Clone the new repo to your computer
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+I've created a book list component, where a basic fetch is made. All titles are shown in that page, in a book card displaying some basic facts. I have also created a component for the book card itself, which handles the structure for each card. The book card is linking to a single page with use of React Router. When clicked, a new fetch is made, which return the endpoint for that single book id, to display a summary of the book, a link to an audio book / e book and some other facts. 
 
-Alternatively, if you don't want a new git repo on your account;
+# The published app
 
-1. Download & extract the [latest release](https://github.com/Technigo/react-starter/releases/latest) from GitHub
-1. Open the directory in the terminal: `cd /path/to/react-starter`
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+The published app can be seen here: 
+
+https://therese-sandemo-collection.netlify.app/
